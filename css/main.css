@@ -1,0 +1,75 @@
+.zadachi {
+    width: 1920px;
+    height: 803px;
+    margin: 0 auto;
+    background: url(../img/Frame\ 8.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container {
+    width: 1340px;
+    margin: 0 auto;
+}
+
+.zadachi__title {
+    padding-top: 33px;
+    color: #FFF;
+    font-family: Comfortaa;
+    font-size: 42px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    line-height: 129.5%; /* 54.39px */
+}
+
+.zadachi__card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.card__item {
+    padding: 17px 75px;
+    margin: 20px;
+    border: none;
+    background: url(../img/zadachi__bg.png);
+    background-repeat: no-repeat;
+    background-color: #bb00ff54;
+}
+
+.zadachi__text {
+    color: #fff;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 21.865px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 129.5%;
+    /* 28.315px */
+
+}
+
+.last__item {
+    padding: 19px 95px;
+    position: absolute;
+    top: 600px;
+    left: 1008px;
+    border: none;
+    background: url(../img/zadachi__bg.png);
+    background-repeat: no-repeat;
+    background-color: #bb00ff54;
+}
+
+.last__text {
+    color: #fff;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 21.865px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 129.5%;
+    /* 28.315px */
+}
